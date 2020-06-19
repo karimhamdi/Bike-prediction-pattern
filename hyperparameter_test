@@ -1,0 +1,312 @@
+Hyperparameters:
+ Iterations: 5000 ... Learning rate: 0.05 ... Hidden nodes: 50
+Results:
+ Training loss: 0.267 ... Validation loss: 0.426
+ Cnt: 71151 ... Prediction: 88983.301 ... Delta: -17832.301
+ MSE:9755.5698
+==================
+Hyperparameters:
+ Iterations: 5000 ... Learning rate: 0.001 ... Hidden nodes: 50
+Results:
+ Training loss: 0.490 ... Validation loss: 0.784 ... Min Validation loss: 0.783
+ Cnt: 71151 ... Prediction: 76371.816 ... Delta: -5220.8161
+ MSE:12281.793
+==================
+Hyperparameters:
+ Iterations: 5000 ... Learning rate: 0.001 ... Hidden nodes: 100
+Results:
+ Training loss: 0.341 ... Validation loss: 0.567 ... Min Validation loss: 0.567
+ Cnt: 71151 ... Prediction: 94204.383 ... Delta: -23053.383
+ MSE:10712.299
+==================
+Hyperparameters:
+ Iterations: 5000 ... Learning rate: 0.001 ... Hidden nodes: 200
+Results:
+ Training loss: 0.306 ... Validation loss: 0.480 ... Min Validation loss: 0.480
+ Cnt: 71151 ... Prediction: 91183.824 ... Delta: -20032.824
+ MSE:10145.673
+==================
+Hyperparameters:
+ Iterations: 500 ... Learning rate: 0.001 ... Hidden nodes: 5
+Results:
+ Training loss: 0.916 ... Validation loss: 1.330 ... Min Validation loss: 1.330
+ Cnt: 71151 ... Prediction: 94598.363 ... Delta: -23447.363
+ MSE:24217.019
+==================
+Hyperparameters:
+ Iterations: 500 ... Learning rate: 0.001 ... Hidden nodes: 5
+Results:
+ Training loss: 2.634 ... Validation loss: 4.100 ... Min Validation loss: 4.100
+ Cnt: 71151 ... Prediction: -23169.16 ... Delta: 94320.1656
+ MSE:56573.061
+
+==================
+Hyperparameters:
+ Iterations: 500 ... Learning rate: 0.5 ... Hidden nodes: 25
+Results:
+ Training loss: 0.316 ... Validation loss: 0.524 ... Min Validation loss: 0.522
+ Cnt: 71151 ... Prediction: 96822.111 ... Delta: -25671.111
+ MSE:11035.999
+==================
+Hyperparameters:
+ Iterations: 100 ... Learning rate: 0.5 ... Hidden nodes: 25
+Results:
+ Training loss: 0.680 ... Validation loss: 1.281 ... Min Validation loss: 1.281
+ Cnt: 71151 ... Prediction: 63426.837 ... Delta: 7724.16260
+ MSE:18046.603
+==================
+Hyperparameters:
+ Iterations: 5000 ... Learning rate: 0.5 ... Hidden nodes: 25
+Results:
+ Training loss: 0.082 ... Validation loss: 0.170 ... Min Validation loss: 0.162
+ Cnt: 71151 ... Prediction: 95913.741 ... Delta: -24762.741
+ MSE:8098.3788
+==================
+Hyperparameters:
+ Iterations: 5000 ... Learning rate: 0.5 ... Hidden nodes: 30
+Results:
+ Training loss: 0.078 ... Validation loss: 0.181 ... Min Validation loss: 0.167
+ Cnt: 71151 ... Prediction: 100133.56 ... Delta: -28982.561
+ MSE:8693.7321
+==================
+Hyperparameters:
+ Iterations: 5000 ... Learning rate: 0.5 ... Hidden nodes: 35
+Results:
+ Training loss: 0.106 ... Validation loss: 0.228 ... Min Validation loss: 0.224
+ Cnt: 71151 ... Prediction: 85086.581 ... Delta: -13935.581
+ MSE:6182.7343
+==================
+Hyperparameters:
+ Iterations: 10000 ... Learning rate: 0.5 ... Hidden nodes: 35
+Results:
+ Training loss: 0.074 ... Validation loss: 0.157 ... Min Validation loss: 0.148
+ Cnt: 71151 ... Prediction: 89735.456 ... Delta: -18584.456
+ MSE:6764.0757
+==================
+Hyperparameters:
+ Iterations: 15000 ... Learning rate: 0.5 ... Hidden nodes: 35
+Results:
+ Training loss: 0.062 ... Validation loss: 0.141 ... Min Validation loss: 0.136
+ Cnt: 71151 ... Prediction: 84074.980 ... Delta: -12923.980
+ MSE:6447.5782
+==================
+Hyperparameters:
+ Iterations: 25000 ... Learning rate: 0.5 ... Hidden nodes: 35
+Results:
+ Training loss: 0.061 ... Validation loss: 0.162 ... Min Validation loss: 0.139
+ Cnt: 71151 ... Prediction: 98559.342 ... Delta: -27408.342
+ MSE:7252.2720
+==================
+Hyperparameters:
+ Iterations: 25000 ... Learning rate: 0.5 ... Hidden nodes: 35
+Learning rate diminishing with iterations (self.lr * 2 * (1-iteration%))
+Results:
+ Training loss: 0.086 ... Validation loss: 0.169 ... Min Validation loss: 0.156
+ Cnt: 71151 ... Prediction: 90612.920 ... Delta: -19461.920
+ MSE:8078.2591
+==================
+Hyperparameters:
+ Iterations: 25000 ... Learning rate: 0.5 ... Hidden nodes: 35
+Learning rate diminishing with iterations (learning_rate / (0.5 + 10* ii/float(iterations)) 
+Results:
+ Training loss: 0.547 ... Validation loss: 0.710 ... Min Validation loss: 0.710
+ Cnt: 71151 ... Prediction: 106140.32 ... Delta: -34989.325
+ MSE:19755.612
+Hyperparameters:
+ Iterations: 15000 ... Learning rate: 1 ... Hidden nodes: 35
+Learning rate diminishing with iterations (learning_rate / (0.5 + 10* ii/float(iterations)) 
+Results:
+ Training loss: 0.192 ... Validation loss: 0.367 ... Min Validation loss: 0.364
+ Cnt: 71151 ... Prediction: 93067.683 ... Delta: -21916.683
+ MSE:9826.4127
+==================
+Hyperparameters:
+ Iterations: 15000 ... Learning rate: 1 ... Hidden nodes: 35
+Learning rate diminishing with iterations (if ii % int(iterations/4) == 0: network.lr = network.lr/2) 
+Results:
+ Training loss: 0.192 ... Validation loss: 0.367 ... Min Validation loss: 0.364
+ Cnt: 71151 ... Prediction: 93067.683 ... Delta: -21916.683
+ MSE:9826.4127
+==================
+Hyperparameters:
+ Iterations: 15000 ... Learning rate: 0.5 ... Hidden nodes: 35
+Results:
+ Training loss: 0.054 ... Validation loss: 0.138 ... Min Validation loss: 0.125
+ Cnt: 71151 ... Prediction: 90976.325 ... Delta: -19825.325
+ MSE:5903.7693
+==================
+Hyperparameters:
+ Iterations: 10000 ... Learning rate: 0.5 ... Hidden nodes: 35
+Learning rate reduced to 0.1 at iteration 6000
+Results:
+ Training loss: 0.067 ... Validation loss: 0.167 ... Min Validation loss: 0.154
+ Cnt: 71151 ... Prediction: 97678.709 ... Delta: -26527.709
+ MSE:8267.5796
+==================
+Hyperparameters:
+ Iterations: 15000 ... Learning rate: 0.5 ... Hidden nodes: 35
+Learning rate reduced to 0.1 at iteration 6000
+Results:
+ Training loss: 0.129 ... Validation loss: 0.219 ... Min Validation loss: 0.213
+ Cnt: 71151 ... Prediction: 96038.827 ... Delta: -24887.827
+ MSE:8678.5477
+==================
+Hyperparameters:
+ Iterations: 15000 ... Learning rate: 0.5 ... Hidden nodes: 25
+Results:
+ Training loss: 0.053 ... Validation loss: 0.157 ... Min Validation loss: 0.129 overfitted?
+ Cnt: 71151 ... Prediction: 100408.32 ... Delta: -29257.321
+ MSE:7736.1131
+==================
+Hyperparameters:
+ Iterations: 10000 ... Learning rate: 0.5 ... Hidden nodes: 25
+Results:
+ Training loss: 0.060 ... Validation loss: 0.139 ... Min Validation loss: 0.131
+ Cnt: 71151 ... Prediction: 91808.971 ... Delta: -20657.971
+ MSE:6753.1410
+==================
+!!!!!!!!!!!!!!!!!!Hyperparameters:
+ Iterations: 5000 ... Learning rate: 1 ... Hidden nodes: 25
+Results:
+ Training loss: 0.081 ... Validation loss: 0.154 ... Min Validation loss: 0.151
+ Cnt: 71151 ... Prediction: 87042.347 ... Delta: -15891.347
+ MSE:5889.6287
+==================
+Hyperparameters:
+ Iterations: 5000 ... Learning rate: 1 ... Hidden nodes: 25
+Learning rate reduced to 0.1 at iteration 4000
+Results:
+ Training loss: 0.706 ... Validation loss: 1.167 ... Min Validation loss: 1.167
+ Cnt: 71151 ... Prediction: 62382.331 ... Delta: 8768.66818
+ MSE:13191.783
+==================
+Hyperparameters:
+ Iterations: 5000 ... Learning rate: 1 ... Hidden nodes: 25
+Learning rate reduced to 0.1 at iteration 4000
+Results:
+ Training loss: 0.086 ... Validation loss: 0.171 ... Min Validation loss: 0.168
+ Cnt: 71151 ... Prediction: 89799.412 ... Delta: -18648.412
+ MSE:7374.8262
+==================
+Hyperparameters:
+ Iterations: 5000 ... Learning rate: 1 ... Hidden nodes: 25
+Learning rate reduced to 0.5 at iteration 4000
+Results:
+ Training loss: 0.109 ... Validation loss: 0.209 ... Min Validation loss: 0.205
+ Cnt: 71151 ... Prediction: 97087.611 ... Delta: -25936.611
+ MSE:7210.0981
+==================
+!!!!!!!!!!!!!!!Hyperparameters:
+ Iterations: 5000 ... Learning rate: 1 ... Hidden nodes: 25
+ Training loss: 0.066 ... Validation loss: 0.138 ... Min Validation loss: 0.128
+ Cnt: 71151 ... Prediction: 81311.801 ... Delta: -10160.801
+ MSE:4693.2789
+==================
+Hyperparameters:
+ Iterations: 5000 ... Learning rate: 1 ... Hidden nodes: 25
+ Different split. Test set is first 21 days, validation set first 60 days after that
+ Training loss: 0.246 ... Validation loss: 0.310 ... Min Validation loss: 0.276
+ Cnt: 28038 ... Prediction: 59848.474 ... Delta: -31810.474
+ MSE:7181.9870
+==================
+Hyperparameters:
+ Iterations: 15000 ... Learning rate: 1 ... Hidden nodes: 25
+Different split. Test set is first 21 days, validation set first 60 days after that
+ Training loss: 0.807 ... Validation loss: 21.62 ... Min Validation loss: 16.90
+ Cnt: 28038 ... Prediction: 165687.30 ... Delta: -137649.30
+ MSE:572323.15
+==================
+Hyperparameters:
+ Iterations: 15000 ... Learning rate: 1 ... Hidden nodes: 25
+Different split. Test set is first 21 days, validation set first 60 days after that
+ Training loss: 0.807 ... Validation loss: 21.62 ... Min Validation loss: 16.90
+ Cnt: 28038 ... Prediction: 165687.30 ... Delta: -137649.30
+ MSE:572323.15
+==================
+Hyperparameters:
+ Iterations: 15000 ... Learning rate: 1 ... Hidden nodes: 25
+Different split. Test set is first 21 days, validation set first 60 days after that
+ Training loss: 0.375 ... Validation loss: 2.383 ... Min Validation loss: 2.377
+ Cnt: 28038 ... Prediction: 107532.18 ... Delta: -79494.182
+ MSE:26787.655
+==================
+Hyperparameters:
+ Iterations: 15000 ... Learning rate: 1 ... Hidden nodes: 25
+Different split. Test set is first 21 days, validation set first 60 days after that
+ Training loss: 0.375 ... Validation loss: 2.383 ... Min Validation loss: 2.377
+ Cnt: 28038 ... Prediction: 107532.18 ... Delta: -79494.182
+ MSE:26787.655
+==================
+Hyperparameters:
+ Iterations: 5000 ... Learning rate: 1 ... Hidden nodes: 25
+Different split. Test set is first 21 days, validation set first 60 days after that
+ Training loss: 0.211 ... Validation loss: 0.653 ... Min Validation loss: 0.575
+ Cnt: 28038 ... Prediction: 72037.113 ... Delta: -43999.113
+ MSE:13999.113
+==================
+Hyperparameters:
+ Iterations: 5000 ... Learning rate: 1 ... Hidden nodes: 25
+ Training loss: 0.117 ... Validation loss: 0.195 ... Min Validation loss: 0.178
+ Cnt: 71151 ... Prediction: 86661.692 ... Delta: -15510.692
+ MSE:5859.7585
+==================
+Hyperparameters:
+ Iterations: 10000 ... Learning rate: 1 ... Hidden nodes: 25
+ Training loss: 0.088 ... Validation loss: 0.159 ... Min Validation loss: 0.148
+ Cnt: 71151 ... Prediction: 91302.041 ... Delta: -20151.041
+ MSE:7319.2338
+==================
+Hyperparameters:
+ Iterations: 6000 ... Learning rate: 1 ... Hidden nodes: 25
+ Training loss: 0.345 ... Validation loss: 0.498 ... Min Validation loss: 0.472
+ Cnt: 71151 ... Prediction: 97832.822 ... Delta: -26681.822
+ MSE:12848.012
+==================
+Hyperparameters:
+ Iterations: 6000 ... Learning rate: 1 ... Hidden nodes: 25
+ Training loss: 0.145 ... Validation loss: 0.276 ... Min Validation loss: 0.256
+ Cnt: -134 ... Prediction: -28.98486 ... Delta: -105.19408
+ MSE:0.2102329
+==================
+Hyperparameters:
+ Iterations: 6000 ... Learning rate: 1 ... Hidden nodes: 25
+ Training loss: 0.513 ... Validation loss: 0.610 ... Min Validation loss: 0.608
+ Cnt: 71151 ... Prediction: 119195.28 ... Delta: -48044.283
+ MSE:18873.643
+==================
+Hyperparameters:
+ Iterations: 5000 ... Learning rate: 0.5 ... Hidden nodes: 25
+ Training loss: 0.079 ... Validation loss: 0.184 ... Min Validation loss: 0.178
+ Cnt: 115707 ... Prediction: 125471.38 ... Delta: -9764.3845
+ MSE:4523.9893
+==================
+!!!!!!!!!!!!!!!!!!Hyperparameters:
+ Iterations: 10000 ... Learning rate: 0.5 ... Hidden nodes: 25
+ Training loss: 0.065 ... Validation loss: 0.158 ... Min Validation loss: 0.137
+ Cnt: 71151 ... Prediction: 95184.352 ... Delta: -24033.352
+ MSE:7199.4911
+==================
+Hyperparameters:
+ Iterations: 5000 ... Learning rate: 0.5 ... Hidden nodes: 25
+ Training loss: 0.075 ... Validation loss: 0.185 ... Min Validation loss: 0.164
+ Cnt: 71151 ... Prediction: 107437.09 ... Delta: -36286.095
+ MSE:10491.725
+==================
+Hyperparameters:
+ Iterations: 6000 ... Learning rate: 0.5 ... Hidden nodes: 25
+ Training loss: 0.061 ... Validation loss: 0.141 ... Min Validation loss: 0.137
+ Cnt: 71151 ... Prediction: 93628.965 ... Delta: -22477.965
+ MSE:6630.3956
+==================
+Hyperparameters:
+ Iterations: 6000 ... Learning rate: 0.5 ... Hidden nodes: 25
+ Training loss: 0.061 ... Validation loss: 0.172 ... Min Validation loss: 0.143
+ Cnt: 71151 ... Prediction: 101805.46 ... Delta: -30654.460
+ MSE:7737.5256
+==================
+Hyperparameters:
+ Iterations: 6000 ... Learning rate: 0.5 ... Hidden nodes: 25
+ Training loss: 0.057 ... Validation loss: 0.143 ... Min Validation loss: 0.128
+ Cnt: 71151 ... Prediction: 90142.805 ... Delta: -18991.805
+ MSE:5306.9627
+==================
